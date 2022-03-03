@@ -5,3 +5,7 @@
   <br>
   <p> 2. instagram 이미지 고려 (crawling, 주요 객체 선택) 
   <p> 완료 : 이미지 주요 색상 추출 (3개,kmeans clustering) / 이미지의 주요객체선택여부 opencv의 grabcut 알고리즘 
+   <br>
+  <p> 3. TfidfVectorizer  LGBMClassifier 을 이용한 감성사전기반 감성분석
+      완료 : 감성 예측 
+      개선 : 정확도 및 불용어 제거
